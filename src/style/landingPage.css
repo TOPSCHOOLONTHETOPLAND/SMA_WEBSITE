@@ -1,0 +1,264 @@
+.myBG {
+  height: 100vh;
+  background: url("../assets/images/bg/LOGO\ BG.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.intro-gombeng {
+  height: 60%;
+  display: flex;
+  color: #1e6714;
+  opacity: 60%;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem; /* Adjust font size for responsiveness */
+  font-weight: bold;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 29%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: -10px -10px 10px rgba(255, 255, 255, 0.5),
+                10px -10px 10px rgba(255, 255, 255, 0.5),
+                10px 10px 10px rgba(255, 255, 255, 0.5),
+                -10px 10px 10px rgba(255, 255, 255, 0.5);
+}
+
+.title-button {
+  height: 10%;
+  display: flex;
+  color: rgb(30, 103, 20);
+  opacity: 60%;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem; /* Adjust font size for responsiveness */
+  font-weight: bold;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: -10px -10px 10px rgba(255, 255, 255, 0.5),
+                10px -10px 10px rgba(255, 255, 255, 0.5),
+                10px 10px 10px rgba(255, 255, 255, 0.5),
+                -10px 10px 10px rgba(255, 255, 255, 0.5);
+}
+
+.intro-topschool {
+  height: 10%;
+  display: flex;
+  color: rgb(72, 255, 0);
+  opacity: 60%;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem; /* Adjust font size for responsiveness */
+  font-weight: bold;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 95%; /* Adjust bottom position for responsiveness */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: -10px -10px 10px rgb(72, 255, 0),
+                10px -10px 10px rgb(72, 255, 0),
+                10px 10px 10px rgb(72, 255, 0),
+                -10px 10px 10px rgb(72, 255, 0);
+}
+
+.title-container {
+  height: 600px !important;
+  display: flex;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 2px 2px black;
+  letter-spacing: 10px;
+}
+
+.trending {
+  height: auto;
+  background: url("../assets/images/bg/BG\ 2.jpg");
+  background-size: 100% 100%; /* Adjust background size for responsiveness */
+  background-position: center;
+  color: rgb(11, 90, 0);
+}
+
+.superhero {
+  height: auto;
+  background: url("../assets/images/bg/BG\ 2.jpg");
+  background-size: 100% 450%; /* Adjust background size for responsiveness */
+  background-position: 80%;
+  position: cover;
+  color: rgb(11, 90, 0);
+}
+
+.movieWrapper1 {
+  margin: 50px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgb(255, 0, 0);
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-container img {
+  width: 33.33%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.text{
+  position: absolute;
+  top: 110%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+}
+
+.movieWrapper {
+  display: cover;
+  justify-content: center;
+  align-items: center;
+  height: 41vh; /* Atur tinggi sesuai kebutuhan */
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #1e6714;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8),
+                0px 0px 20px rgba(255, 255, 255, 0.6),
+                0px 0px 30px rgba(255, 255, 255, 0.4),
+                0px 0px 40px rgba(255, 255, 255, 0.2);
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 1300px) {
+  /* Adjust styles for smaller screens */
+
+  .myBG{
+    background-size: cover;
+    
+  }
+  .intro-gombeng {
+    font-size: 30px;
+    letter-spacing: 0;
+    opacity: 100%;
+  }
+
+  .title-button {
+    font-size: 40px;
+    letter-spacing: 0;
+    opacity: 100%;
+    /* Menghapus transform: translateY(50%) */
+    position: absolute; /* Mengubah posisi menjadi absolut */
+    top: 17%; /* Posisikan 20% dari atas */
+    left: 50%;
+    transform: translateX(-50%); /* Pusatkan secara horizontal */
+  }
+
+  .intro-topschool {
+    top: 96%; /* Adjust bottom position */
+    font-size: 13px;
+    letter-spacing: 0;
+  }
+
+  .hero-title {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #1e6714;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8),
+                  0px 0px 20px rgba(255, 255, 255, 0.6),
+                  0px 0px 30px rgba(255, 255, 255, 0.4),
+                  0px 0px 40px rgba(255, 255, 255, 0.2);
+  }
+
+
+  .movieWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh; /* Atur tinggi sesuai kebutuhan */
+  }
+
+  .movieImage {
+    height: 18rem;
+    object-fit: cover;
+    
+  }
+
+  .images {
+    height: 340px;
+    object-fit: cover;
+  }
+
+  .container {
+    display: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-dok {
+    font-size: 1rem !important;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+  }
+
+ 
+
+  .movieWrapper1 {
+    margin: 10rem; /* Menggunakan rem untuk margin yang lebih fleksibel */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30vh; /* Menggunakan vh untuk tinggi yang relatif terhadap viewport */
+    }
+
+  }
+  
+  @media screen and (max-width: 378px) {
+    .movieWrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 45vh; /* Atur tinggi sesuai kebutuhan */
+    }
+
+    .movieWrapper1 {
+      margin: 10rem; /* Menggunakan rem untuk margin yang lebih fleksibel */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 32vh; /* Menggunakan vh untuk tinggi yang relatif terhadap viewport */
+      }
+  }
+
+ 
+
+
+
+  
+  
